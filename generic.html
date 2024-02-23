@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Descriptive Analysis on Cookies Business Using Power BI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Samuel Okon Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home page</a></li>
+						<!--	<li><a href="elements.html">Portfolio</a></li> -->
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/samuel-okon-294325152/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/flameloaded?tab=repositories" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Sales Analysis on OLK Cookies Industries LTD. </h1>
+									<p> Executive Summary: Sales Analysis on OLK Industries </p>
+								</header>
+								<div class="image main"><img src="images/olkdashboard.PNG" alt="" />
+								</div>
+							<p>
+							<h4>
+								<strong>Introduction:</strong>
+							</h4>
+							OLK Cookies Industries LTD, a leading producer of cookies for human consumption, has 
+							embarked on a comprehensive analysis to illuminate critical aspects of its business
+							 operations. With a primary aim to provide actionable insights for refining business 
+							 strategies and enhancing overall performance within the realm of cookie sales, this 
+							 project focuses on conducting an in-depth sales analysis. Particular emphasis is placed 
+							 on examining the impact of shipment duration on customer lifetime value. 
+							</p>
+							<p>
+								During this analysis Cascade Grovers, Acme Grocery Store, Park & Eat LLC,
+								Quick Bite Convenience Store, YT Restaurants was abbreviated to 
+								CG, AG, PE, QBC, YT respectively.
+							</p>
+							</p>
+							<p>
+							<h4>
+								<strong>Objective:</strong>
+							</h4>
+									The primary objective of this analysis was to identify and delineate key performance 
+									indicators (KPIs) encompassing
+									<ul>
+									 	<li>Total Transactions and year to year growth</li>
+										<li>Total Cookies Shipped and year to year growth</li>
+										<li>Total Revenue and year to year growth</li>
+										<li>Average Order Value</li>
+										<li>Conversion Rate </li>
+										<li>Customer Lifetime Value</li>
+										<li>The effect of Shipments on Customer Lifetime Value</li>
+									</ul>
+									
+							</p>
+							<p>
+								Executed as part of an intern project, this analysis involved meticulous data 
+								cleaning and modeling procedures leveraging advanced tools such as Power Query 
+								and Power BI. By employing these sophisticated analytical tools, the project ensures 
+								a rigorous and insightful examination of OLK Industries' operational dynamics. 
+								This facilitates a nuanced understanding of various crucial facets vital for strategic
+								 decision-making and business optimization.
+							</p>
+							
+							<h4>
+								<strong>	
+									Data Preparation:
+								</strong>
+							</h4>
+								The raw data, spanning four years and organized into separate Excel sheets, was imported into Power Query using append 
+									and merge. 
+									The data underwent cleaning to address null values and unwanted figures. Afterward, it was loaded into Power BI
+									 for further analysis.
+								
+								<img class="image column" src="images/dataset.png"  alt="" />
+								<img class="image column" src="images/olkdirtydata.PNG"  alt="" />
+								
+								
+									
+									 
+								<p>
+									<h4>
+										<strong>
+											Key Findings:
+										</strong>
+									</h4>
+											The dashboard revealed several primary key insights for overall year:
+										<div>
+											<img class="image column" src="images/olkkpi.PNG"  alt="" />
+										</div>
+										<ul>	
+											<li>Total transactions: 3172</li>	
+											<li>Total Cookies Shipped: 1.6 million</li>
+											<li>Total revenue: $2.7 billion</li>
+											<li>Average Order Value 1,658.77</li>
+											<li>Conversion Rate: 519.06</li>	
+										</ul>
+									</p>
+									
+									 <p>
+										<strong>
+											Total Transactions By Customer:
+										</strong>
+										<img class="image column" src="images/olkcustomertotaltrans.PNG"  alt="" />
+										During the period spanning from 2017 to 2020, the following transactional
+										 data was observed for several establishments:
+										<ul>
+											<strong>
+											<h4>
+												YT Restaurants:
+											</h4>
+											</strong>
+											<img class="image kpi" src="images/olkyt.PNG"  alt="" />	
+											
+											<li>Number of Cookies Shipped: 345,614</li>
+											
+										</ul>
+										<ul>
+											<strong>
+											<h4>
+												Quick Bite Conveniences Store:
+											</h4>
+											</strong>	
+											<img class="image kpi" src="images/olkqbc.PNG"  alt="" />
+											<li>Number of Cookies Shipped: 395,394</li>
+										</ul>
+
+									
+										<ul>
+											<strong>
+											<h4>
+												Cascade Grovers:
+											</h4>
+											</strong>	
+											<img class="image kpi" src="images/olkcg.PNG"  alt="" />
+											<li>Number of Cookies Shipped: 479,965</li>
+										</ul>
+										<ul>
+											<strong>
+											<h4>
+												Park & Eat LLC:
+											</h4>
+											</strong>	
+											<img class="image kpi" src="images/olkpe.PNG"  alt="" />
+											<li>Number of Cookies Shipped: 313,113</li>
+										</ul>
+										<ul>
+											<strong>
+											<h4>
+												Acme Grocery Store:
+											</h4>
+											</strong>	
+											<img class="image kpi" src="images/oklag.PNG"  alt="" />
+											<li>Number of Cookies Shipped: 112,358</li>
+										</ul>
+									
+
+									 Total Cookies Shipped from 2017 to 2020: amounts to <strong>1,646,444 numbers of cookies.</strong>
+									</p>
+									 <p>
+										<strong>
+											Shipments Duration Segment:
+										</strong>
+										<img class="image column" src="images/olkshipmentduration.PNG"  alt="" />
+										<img class="image chart" src="images/olkshipmentduration1.PNG"  alt="" />
+										The categorization of shipment durations is established based on a discerning criterion: durations equal
+										 to or less than 3 are classified as expedited or fast shipments, whereas durations exceeding 3 are designated
+										  as standard or slower shipments. This meticulous classification system enables a nuanced evaluation of 
+										  shipping efficiency, allowing for a more strategic and informed approach to logistics management.
+ 									</p>		
+								</p>		
+								<p>
+								<strong>	
+									Data Modeling:
+								</strong>
+								<div>
+									<img class="image column" src="images/model.PNG"  alt="" />
+								</div>
+									A critical step in the process involved the creation of a one-to-many relationship between the fact table and
+									 dimension table. This relationship was pivotal for connecting transactional data with relevant dimensions for
+									  a comprehensive analysis.
+								
+								</p>
+								
+								
+								<p>
+									<strong>
+										Revenue Analysis by Year (Quarterly):
+									</strong>
+								
+									<h4>
+										<strong>2017:</strong>
+									</h4>
+									
+										<img class="image chart" src="images/olkareachart17.PNG" alt="" />
+											
+										The observed pattern indicates a positive trajectory from the initial quarter through the third quarter,
+										followed by a notable and abrupt ascent in the fourth quarter. This distinctive trend highlights the 
+										dynamic shifts in performance and a slow growth in the fourth quarter.
+								</p>
+								<p>
+									<h4>
+										<strong>2018:</strong>
+									</h4>
+									
+										<img class="image chart" src="images/olkareachart18.PNG" alt="" />
+												
+										The area chart illustrates a consistent upward trajectory from the first quarter through 
+										the third quarter. Notably, a pronounced and rapid descent in performance is observed in the transition 
+										from the third quarter to the fourth quarter. This visual depiction underscores the need for a detailed
+										 examination of the factors influencing these trends, providing valuable insights for strategic analysis
+										  and decision-making.
+								</p>
+								<p>
+									<h4>
+										<strong>2019:</strong>
+									</h4>
+									
+										<img class="image chart" src="images/olkareachart19.PNG" alt="" />
+												
+										An analysis of the data reveals a visible downward trend from the first quarter through the third quarter, 
+										succeeded by a noteworthy upward trajectory in the fourth quarter. This observed pattern emphasizes the dynamic
+										 nature of the data and highlights the importance of exploring the underlying factors contributing to these trends
+										  for a comprehensive understanding the rapid change during the specified period.
+								</p>		
+									
+								<p>
+									<h4>
+										<strong>2020:</strong>
+									</h4>
+									
+										<img class="image chart" src="images/Areachart2.PNG" alt="" />
+												
+										In the fiscal year 2020, an upward trend was noted from the first quarter to the second quarter, followed by a steep downward 
+								trend from the third quarter to the fourth quarter. This analysis of quarterly variations underscores the importance of 
+								exploring the underlying factors influencing these trends, providing valuable insights for strategic decision-making and future
+								 planning.
+								
+								</p>
+								<p>
+									<h4>
+										<strong>Customer Lifetime Value</strong>
+									</h4>
+									
+										<img class="image card" src="images/olkclv.PNG" alt="" />
+												
+										Cascade Grocers (CG) emerges as the leading entity, boasting a figure of $2.4 billion, followed closely
+										 by Quick Bite Convenience Store (QBC) with a respectable value of $2.0 billion. This data underscores CG's
+										  prominence as the most valued customer based on Customer Lifetime Value (CLV) analysis, as depicted in the chart.
+								
+								</p>
+								<p>
+									
+									<h4>
+										<strong>Customer Lifetime Value in respect to duration of shipment</strong>
+									</h4>
+									<p>
+										<h4>
+											Cascade Grocers
+										</h4>	
+											<img class="image card" src="images/olkclvtrans2.PNG" alt="" />
+											Cascade Grocers demonstrates a clear pattern where lower shipment durations 
+											correspond to higher Customer Lifetime Value (CLV). Specifically, CLV values 
+											of $1,927,781,557.5, $452,906,790, and $6,912,000 are associated with shipment 
+											durations of 2, 3, and 4 days, respectively.
+										
+									</p>
+									<p>
+										<h4>
+											Park & Eat LLC
+										</h4>	
+										<img class="image card" src="images/olkclvtrans3.PNG" alt="" />
+										Park & Eat LLC exhibits varied CLV values for shipment durations of 4 and 5 days,
+										with corresponding values of $455,237,565 and $1,100,255,017.5, respectively.
+									</p>	
+									<p>
+										<h4>
+											Quick Bite Convenience Store
+										</h4>
+										<img class="image card" src="images/olkclvtrans4.PNG" alt="" />
+										Quick Bite Convenience Store shows higher CLV values for shipment durations of
+										 3 and 4 days, with respective values of $500,997,742.5 and $1,464,487,222.5.
+									</p>
+									<p>	 
+										<h4>
+											YT Restaurant
+										</h4>
+										<img class="image card" src="images/olkclvtrans5.PNG" alt="" />
+										YT Restaurant indicates elevated CLV values for shipment durations of 5 and 6 
+										days, with values of $1,580,324,235 and $121,648,470, respectively.
+									</p>
+									<p>	
+										<h4>
+											Acme Grocery Store
+										</h4>
+										<img class="image card" src="images/olkclvtrans6.PNG" alt="" />
+										Acme Grocery Store displays a CLV of $582,654,975 for a 2-day shipment duration.
+									</p>
+								</p>	
+
+									<p>
+										This observation underscores a consistent relationship between shipment duration and 
+										CLV across various customers. Shorter shipment durations tend to correlate with higher 
+										CLV values, while longer durations are associated with lower CLV values. This emphasizes 
+										the significance of timely delivery and efficient logistics in maximizing customer 
+										lifetime value and overall business performance for each customers.
+									</p>
+							</p>
+								
+								
+								
+								<p>	
+									<strong>
+										Recommendation:
+									</strong>
+								</p>
+								<h4>
+									Optimization of Shipping Processes:
+								</h4>
+
+								Given the impact of shipment duration on customer satisfaction and business performance,
+								 it is recommended to conduct a comprehensive review of shipping processes. This may involve
+								  streamlining operations to reduce shipping durations, particularly for expedited shipments. 
+								  Improved logistics efficiency can contribute to enhanced customer experience and loyalty.
+								
+								<h4>
+									Continuous Monitoring and Adaptation:
+								</h4>
+								The dynamic nature of performance trends, as evident from the yearly analyses, underscores 
+								the importance of continuous monitoring and adaptability. OLK Store should establish a proactive
+								 approach to monitor market changes, customer behaviors, and internal operations, allowing for 
+								 timely adjustments to business strategies.
+								
+								</p>
+								<p>
+									<strong>
+										Conclusion:
+									</strong>
+							 	</p>
+								 In conclusion, the sales analysis conducted on OLK Industries LTD. using Power BI has provided
+								  valuable insights into various facets of the business, ranging from customer transactions 
+								  to revenue and production costs. The detailed examination of key performance indicators 
+								  and trends over the years has offered a comprehensive understanding of the business dynamics.
+
+								 The findings emphasize the need for strategic adaptations in shipping processes and customer
+								  engagement strategies. Continuous monitoring and proactive decision-making are crucial for 
+								  navigating the evolving market landscape.
+								 
+								 By implementing the recommended strategies and maintaining a flexible approach, OLK Cookies Industries
+								  can position itself for sustained growth, improved customer relations, and optimized 
+								  operational efficiency. This analysis serves 
+								  as a foundation for informed decision-making and strategic planning to drive the future 
+								  success of OLK Cookies Industries.
+								</p>	
+
+								Click the link below to access the complete analysis and dashboard.
+								<a href="https://app.powerbi.com/groups/me/reports/9340eb49-e9a1-481e-aaf1-f0db252cbc92/ReportSection68b391a0e1c09d0e2a03?experience=power-bi"> 
+									OLK Industries LTD dashboard
+								</a>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul>
+							<li>&copy; Samuel Okon</li>
+							<li><a href="https://www.linkedin.com/in/samuel-okon-294325152/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/flameloaded?tab=repositories" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
